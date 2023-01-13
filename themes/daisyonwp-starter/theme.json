@@ -1,0 +1,19 @@
+{
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "simple-header-with-tagline",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "right-aligned-footer",
+			"title": "Footer"
+		}
+	],
+	"settings": {
+		"appearanceTools": true
+	}
+}
