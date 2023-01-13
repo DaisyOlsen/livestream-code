@@ -1,0 +1,13 @@
+upgrade/
+uploads/
+# VSCode
+*.code-workspace
+create-block-theme/
+boilerplate/
+twentytwentyone/
+twentytwentytwo/
+twentytwentythree/
+gutenberg/
+/index.php
+themes/index.php
+plugins/index.php
