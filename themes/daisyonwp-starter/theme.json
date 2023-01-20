@@ -14,6 +14,58 @@
 		}
 	],
 	"settings": {
-		"appearanceTools": true
-	}
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultDuotone": true,
+			"defaultGradients": true,
+			"defaultPalette": true,
+			"background": true,
+			"link": false,
+			"text": false	
+		},
+		"border": {
+			"color": false,
+			"radius": false,
+			"style": false,
+			"width": false
+		},
+		"spacing": {
+			"margin": false,
+			"padding": false
+		},
+			"shadow": {
+				"palette": [
+					{
+						"name": "Natural",
+						"slug": "theme-natural",
+						"shadow": "5px 5px 0px -2px #FFFFFF, 5px 5px #000000"
+					},
+					{
+						"name": "Crisp",
+						"slug": "theme-crisp",
+						"shadow": "5px 5px #000000"
+					},
+					{
+						"name": "Sharp",
+						"slug": "theme-sharp",
+						"shadow": "5px 5px 0 0 #999999"
+					},
+					{
+						"name": "Soft",
+						"slug": "theme-soft",
+						"shadow": "5px 5px 10px 0 #999999"
+					}
+				]
+			}
+	},
+		"styles": {
+			 "elements": {
+				  "button": {
+					  "shadow": "var(--wp--preset--shadow--natural)"
+				  }
+			 }
+		}
 }
