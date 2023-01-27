@@ -1,6 +1,79 @@
 {
-	"version": 2,
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"gradients": [
+				{
+					"gradient": "linear-gradient(90deg,rgb(255,245,203) 0%,rgb(211,50,50) 27%,rgb(183,39,127) 52%,rgb(182,227,212) 79%,rgb(51,167,181) 100%)",
+					"name": "Test",
+					"slug": "test"
+				}
+			],
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#9DFF20",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#345C00",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#F6F6F6",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "800px",
+			"wideSize": "1200px"
+		},
+		"spacing": {
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Medium",
+					"size": "16px",
+					"slug": "medium"
+				},
+				{
+					"fluid": false,
+					"name": "Tiny",
+					"size": "8px",
+					"slug": "tiny"
+				},
+				{
+					"fluid": false,
+					"name": "Gigantic",
+					"size": "64px",
+					"slug": "gigantic"
+				}
+			]
+		}
+	},
 	"templateParts": [
 		{
 			"area": "header",
@@ -13,59 +86,6 @@
 			"title": "Footer"
 		}
 	],
-	"settings": {
-		"appearanceTools": true,
-		"color": {
-			"custom": true,
-			"customDuotone": true,
-			"customGradient": true,
-			"defaultDuotone": true,
-			"defaultGradients": true,
-			"defaultPalette": true,
-			"background": true,
-			"link": false,
-			"text": false	
-		},
-		"border": {
-			"color": false,
-			"radius": false,
-			"style": false,
-			"width": false
-		},
-		"spacing": {
-			"margin": false,
-			"padding": false
-		},
-			"shadow": {
-				"palette": [
-					{
-						"name": "Natural",
-						"slug": "theme-natural",
-						"shadow": "5px 5px 0px -2px #FFFFFF, 5px 5px #000000"
-					},
-					{
-						"name": "Crisp",
-						"slug": "theme-crisp",
-						"shadow": "5px 5px #000000"
-					},
-					{
-						"name": "Sharp",
-						"slug": "theme-sharp",
-						"shadow": "5px 5px 0 0 #999999"
-					},
-					{
-						"name": "Soft",
-						"slug": "theme-soft",
-						"shadow": "5px 5px 10px 0 #999999"
-					}
-				]
-			}
-	},
-		"styles": {
-			 "elements": {
-				  "button": {
-					  "shadow": "var(--wp--preset--shadow--natural)"
-				  }
-			 }
-		}
+	"version": 2,
+	"$schema": "https://schemas.wp.org/trunk/theme.json"
 }
