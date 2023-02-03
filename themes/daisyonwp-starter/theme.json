@@ -71,6 +71,120 @@
 					"size": "64px",
 					"slug": "gigantic"
 				}
+			],
+			"fontFamilies": [
+				{
+					"fontFamily": "Arya",
+					"slug": "arya",
+					"fontFace": [
+						{
+							"fontFamily": "Arya",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/arya_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Arya",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/arya_normal_700.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Major Mono Display",
+					"slug": "major-mono-display",
+					"fontFace": [
+						{
+							"fontFamily": "Major Mono Display",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/major-mono-display_normal_400.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Nothing You Could Do",
+					"slug": "nothing-you-could-do",
+					"fontFace": [
+						{
+							"fontFamily": "Nothing You Could Do",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/NothingYouCouldDo-Regular.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Merienda",
+					"slug": "merienda",
+					"fontFace": [
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/merienda_normal_300.ttf"
+							]
+						},
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/merienda_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/merienda_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/merienda_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/merienda_normal_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/merienda_normal_800.ttf"
+							]
+						},
+						{
+							"fontFamily": "Merienda",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/merienda_normal_900.ttf"
+							]
+						}
+					]
+				}
 			]
 		}
 	},
