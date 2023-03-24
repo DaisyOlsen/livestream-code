@@ -1,9 +1,95 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#000000",
+					"name": "Color 1",
+					"slug": "custom-color-1"
+				},
+				{
+					"color": "#FFFFFF",
+					"slug": ""
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "800px",
 			"wideSize": "1200px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Aboreto",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/aboreto_normal_400.ttf"
+							]
+						}
+					],
+					"fontFamily": "Aboreto",
+					"slug": "aboreto"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": "10px"
+				},
+				"color": {
+					"background": "var:preset|color|pale-pink",
+					"text": "var:preset|color|white"
+				},
+				"shadow": "var:preset|shadow|outlined",
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|40",
+						"left": "var:preset|spacing|40",
+						"right": "var:preset|spacing|40",
+						"top": "var:preset|spacing|40"
+					}
+				}
+			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "var:preset|spacing|40",
+					"margin": {
+						"bottom": "var:preset|spacing|40",
+						"top": "var:preset|spacing|40"
+					}
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|aboreto",
+					"fontSize": "var:preset|font-size|x-large",
+					"fontStyle": "normal",
+					"fontWeight": "400"
+				}
+			}
+		},
+		"color": {
+			"background": "var:preset|color|black",
+			"text": "var:preset|color|white"
+		},
+		"css": "/* Theme Custom CSS start */\np { color: red; }\n/* Theme Custom CSS end */\n\n.paged-2 .wp-block-query-pagination-previous { display: none; }\n\np.to-front { display: none; }\n\n.paged-2 p.to-front, body.editor-styles-wrapper p.to-front { display: inherit }",
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|white"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|aboreto",
+			"fontSize": "38px",
+			"fontStyle": "normal",
+			"fontWeight": "400"
 		}
 	},
 	"templateParts": [
@@ -29,5 +115,5 @@
 		}
 	],
 	"version": 2,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
 }
