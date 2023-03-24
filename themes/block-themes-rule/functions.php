@@ -53,6 +53,7 @@ function block_themes_rule_setup() {
 		)
 	);
 
+	add_theme_support( 'block-template-parts' );
 	/*
 		* Switch default core markup for search form, comment form, and comments
 		* to output valid HTML5.
@@ -176,3 +177,14 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * Add support for Block Template Parts
+ */
+
+function add_block_template_part_support() {
+
+    add_theme_support( 'block-template-parts' );
+
+}
+
+//add_action( 'after_setup_theme', 'add_block_template_part_support' );
